@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Final Project</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/splide.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body style="background-color: #ddf;">
+    <nav class="navbar navbar-expand-md bg-light fixed-top position-static">
+        <div class="container-fluid">
+            <div class="d-flex align-items-center">
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand ms-5 fw-bolder fs-3" href="#">OrlahLuxury</a>
+            </div>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title fw-bolder" id="offcanvasNavbarLabel">Main Menu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="New-In.html">New In</a>
+                        </li>
+                        <li class="nav-item dropdown ms-md-3">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Men
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown ms-md-3">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Women
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown ms-md-3">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Brands
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown ms-md-3">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Gifting
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item ms-4">
+                            <a class="nav-link" href="#">Editorials</a>
+                        </li>
+                        <li class="nav-item ms-4">
+                            <a class="nav-link" href="#">Sales</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row me-5 mt-2">
+                <div class="col">
+                    <box-icon name='search'></box-icon>
+                </div>
+                <div class="col">
+                    <box-icon name='user'></box-icon>
+                </div>
+                <div class="col">
+                    <box-icon name='cart'></box-icon>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div><img src="static/images/promo.avif" alt="" style="max-width: 100%;"></div>
+
+    <div class="container-fluid mt-4">
+        <div class="row">
+            <div class="col col-md-6 col-sm-12 ms-lg-0 img-fluid"><a href=""><img src="static/images/nike-big-shoe.avif"
+                        alt="" style="width: 100%;"></a></div>
+            <div class="col col-md-6 col-sm-12 me-lg-0 img-fluid"><a href=""><img
+                        src="static/images/ashluxe-big-cloth.avif" alt="" style="width: 100%;" class=""></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mt-5 p-5 bg-white">
+        <p class="fs-1 lh-1 text-center pt-5">Casablanca</p>
+        <p class="fs-5 lh-1 text-center text-decoration-underline text-white mb-md-5 lh-lg"><a href="">VIEW ALL
+                PRODUCTS</a></p>
+        <section id="image-carousel" class="splide" aria-label="Beautiful Images">
+            <div class="splide__track px-5">
+                <ul class="splide__list">
+                    <li class="splide__slide text-center mt-3">
+                        <div class="col border border-black me-5 me-sm-3">
+                            <img src="static/images/casablanca1.avif" alt="" style="width: 90%;" class="mt-3">
+                            <p class="fs-5 px-4 text-start">Casablanca The Art of Racing Printed Silk Shirt 00938A</p>
+                            <div class="row px-2 px-sm-0" style="margin-top: -15px;">
+                                <div class="col-4 col-md-6 col-sm-6 fw-bold">
+                                    <p class="ms-4 ms-md-0 fs-5">N455,868.00</p>
+                                </div>
+                                <div class="col-3 col-md-6 col-sm-5">
+                                    <p class="text-decoration-line-through fs-5">N759,780.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide text-center mt-3">
+                        <div class="col border border-black me-5 me-sm-3">
+                            <img src="static/images/casablanca2.avif" alt="" style="width: 90%;" class="mt-3">
+                            <p class="fs-5 px-4 text-start">Casablanca Black Leather Memphis Mocassin 001043A</p>
+                            <div class="row px-2 px-sm-0" style="margin-top: -15px;">
+                                <div class="col-4 col-md-6 col-sm-6">
+                                    <p class="ms-1 fw-bold ms-md-0 fs-5 ms-sm-4">N506,898.00</p>
+                                </div>
+                                <div class="col-3 col-md-6 col-sm-6">
+                                    <p class="text-decoration-line-through fs-5">N844,830.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide text-center mt-3">
+                        <div class="col border border-black me-5 me-sm-3">
+                            <img src="static/images/casablanca3.avif" alt="" style="width: 90%;" class="mt-3">
+                            <p class="fs-5 px-4 text-start">Casablanca Black Round Leather Bag Black/Green 001297A</p>
+                            <div class="row px-2 px-sm-0" style="margin-top: -15px;">
+                                <div class="col-4 col-md-6 col-sm-6">
+                                    <p class="ms-4 fw-bold ms-md-0 fs-5">N630,342.00</p>
+                                </div>
+                                <div class="col-3 col-md-6 col-sm-6">
+                                    <p class="text-decoration-line-through mt-sm-1">N1,050,570.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide text-center mt-3">
+                        <div class="col border border-black">
+                            <img src="static/images/casablanca4.avif" alt="" style="width: 85%;" class="mt-3">
+                            <p class="fs-5 px-4 text-start ms-md-4">Casablanca Dream House Silk Dress Multi-Coloured 002435A</p>
+                            <div class="row px-2 px-sm-0" style="margin-top: -15px;">
+                                <div class="col-4 col-md-6 col-sm-6">
+                                    <p class="fs-5 fw-bold fs-5 ms-md-0 ms-sm-4">N514,674.00</p>
+                                </div>
+                                <div class="col-3 col-md-6 col-sm-6">
+                                    <p class="text-decoration-line-through fs-5">N857,790.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+
+    <div class="container-fluid mt-5 p-5 bg-white">
+        <p class="fs-1 lh-1 text-center pt-5">Nike Sneakers</p>
+        <p class="fs-5 lh-1 text-center text-decoration-underline text-white mb-md-5 lh-lg"><a href="">VIEW ALL
+                PRODUCTS</a></p>
+        <section id="image-carousel2" class="splide" aria-label="Beautiful Images">
+            <div class="splide__track px-5">
+                <ul class="splide__list">
+                    <li class="splide__slide text-center mt-3">
+                        <div class="col border border-black me-5 me-sm-3">
+                            <img src="static/images/nike1.png" alt="" style="width: 90%;" class="mt-3">
+                            <p class="fs-5 px-4 text-start">Air Jordan 1 High Satin Snake Red/Black/White 00676A</p>
+                            <div class="row px- px-sm-0" style="margin-top: -15px;">
+                                <div class="col-7 fw-bold">
+                                    <p class="ms-5 ms-sm-0 ms-md-0 fs-5">from N422,500.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide text-center mt-3">
+                        <div class="col border border-black me-5 me-sm-3">
+                            <img src="static/images/nike2.png" alt="" style="width: 90%;" class="mt-3">
+                            <p class="fs-5 px-4 text-start">Nike Air Max 95 Se Obsidian/Wheat/Thunder Blue 00297A</p>
+                            <div class="row px-2 px-sm-0" style="margin-top: -15px;">
+                                <div class="col-4 col-md-6 col-sm-6">
+                                    <p class="ms-1 fw-bold ms-md-0 fs-5 ms-sm-4">N240,000.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide text-center mt-3">
+                        <div class="col border border-black me-5 me-sm-3">
+                            <img src="static/images/nike3.png" alt="" style="width: 90%;" class="mt-3">
+                            <p class="fs-5 px-4 text-start">Air Jordan 4 Retro Tour Yellow/Blue-Grey 00652A</p>
+                            <div class="row px-2 px-sm-0" style="margin-top: -15px;">
+                                <div class="col-4 col-md-6 col-sm-6">
+                                    <p class="ms-4 fw-bold ms-md-0 fs-5">N528,120.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide text-center mt-3">
+                        <div class="col border border-black">
+                            <img src="static/images/nike4.png" alt="" style="width: 80%;" class="mt-3">
+                            <p class="fs-5 px-4 text-start ms-md-4">Air Jordan 1 Reverse Bred Low Sneakers 00181A</p>
+                            <div class="row px-2 px-sm-0" style="margin-top: -15px;">
+                                <div class="col-4 col-md-6 col-sm-6">
+                                    <p class="fs-5 fw-bold fs-5 ms-md-0 ms-sm-4">N146,610.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <div>
+        <img src="static/images/big-pic.avif" alt="" style="max-width: 100%;">
+    </div>
+
+    <div class="container-fluid mt-5 p-5 bg-white">
+        <p class="fs-1 lh-1 text-center pt-5">Who Decides War</p>
+        <p class="fs-5 lh-1 text-center text-decoration-underline text-white mb-md-5 lh-lg"><a href="">VIEW ALL
+                PRODUCTS</a></p>
+        <section id="image-carousel3" class="splide" aria-label="Beautiful Images">
+            <div class="splide__track px-5">
+                <ul class="splide__list">
+                    <li class="splide__slide text-center mt-3">
+                        <div class="col border border-black me-5 me-sm-3">
+                            <img src="static/images/who-decide-war-1.avif" alt="" style="width: 90%;" class="mt-3">
+                            <p class="fs-5 px-4 text-start">Who Decide War X Barriers Ny Monument Jersey 00250A</p>
+                            <div class="row px-2 px-sm-0" style="margin-top: -15px;">
+                                <div class="col-4 col-md-6 col-sm-6 fw-bold">
+                                    <p class="ms-4 ms-md-0 fs-5">N121,500.00</p>
+                                </div>
+                                <div class="col-3 col-md-6 col-sm-5">
+                                    <p class="text-decoration-line-through fs-5">N202,500.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide text-center mt-3">
+                        <div class="col border border-black me-5 me-sm-3">
+                            <img src="static/images/who-decide-war-2.avif" alt="" style="width: 90%;" class="mt-3">
+                            <p class="fs-5 px-4 text-start">Who Decide War Four Season Jersey</p>
+                            <div class="row px-2 px-sm-0" style="margin-top: -15px;">
+                                <div class="col-4 col-md-6 col-sm-6">
+                                    <p class="ms-1 fw-bold ms-md-0 fs-5 ms-sm-4">N97,200.00</p>
+                                </div>
+                                <div class="col-3 col-md-6 col-sm-6">
+                                    <p class="text-decoration-line-through fs-5">N162,000.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide text-center mt-3">
+                        <div class="col border border-black me-5 me-sm-3">
+                            <img src="static/images/who-decide-war-3.avif" alt="" style="width: 90%;" class="mt-3">
+                            <p class="fs-5 px-4 text-start">Who Decide War Distress Crown of Thorns Hat - Blue</p>
+                            <div class="row px-2 px-sm-0" style="margin-top: -15px;">
+                                <div class="col-4 col-md-6 col-sm-6">
+                                    <p class="ms-4 fw-bold ms-md-0 fs-5">N103,761.00</p>
+                                </div>
+                                <div class="col-3 col-md-6 col-sm-6">
+                                    <p class="text-decoration-line-through mt-sm-1">N172,935.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide text-center mt-3">
+                        <div class="col border border-black me-5 me-sm-3">
+                            <img src="static/images/who-decide-war-4.avif" alt="" style="width: 90%;" class="mt-3">
+                            <p class="fs-5 px-4 text-start">Who Decide War Four Seasons Denim</p>
+                            <div class="row px-2 px-sm-0" style="margin-top: -15px;">
+                                <div class="col-4 col-md-6 col-sm-6">
+                                    <p class="ms-4 fw-bold ms-md-0 fs-5">N388,800.00</p>
+                                </div>
+                                <div class="col-3 col-md-6 col-sm-6">
+                                    <p class="text-decoration-line-through mt-sm-1">N648,000.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide text-center mt-3">
+                        <div class="col border border-black me-5 me-sm-3">
+                            <img src="static/images/who-decide-war-5.avif" alt="" style="width: 90%;" class="mt-3">
+                            <p class="fs-5 px-4 text-start">Who Decide War X Barriers Ny Monument Jacket</p>
+                            <div class="row px-2 px-sm-0" style="margin-top: -15px;">
+                                <div class="col-4 col-md-6 col-sm-6">
+                                    <p class="ms-4 fw-bold ms-md-0 fs-5">N388,800.00</p>
+                                </div>
+                                <div class="col-3 col-md-6 col-sm-6">
+                                    <p class="text-decoration-line-through mt-sm-1">N648,000.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide text-center mt-3">
+                        <div class="col border border-black me-5 me-sm-3">
+                            <img src="static/images/who-decide-war-6.avif" alt="" style="width: 90%;" class="mt-3">
+                            <p class="fs-5 px-4 text-start">Who Decide War X Barriers Ny Monument Denim</p>
+                            <div class="row px-2 px-sm-0" style="margin-top: -15px;">
+                                <div class="col-4 col-md-6 col-sm-6">
+                                    <p class="ms-4 fw-bold ms-md-0 fs-5">N388,800.00</p>
+                                </div>
+                                <div class="col-3 col-md-6 col-sm-6">
+                                    <p class="text-decoration-line-through mt-sm-1">N648,000.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide text-center mt-3">
+                        <div class="col border border-black me-5 me-sm-3">
+                            <img src="static/images/who-decide-war-7.avif" alt="" style="width: 90%;" class="mt-3">
+                            <p class="fs-5 px-4 text-start">Who Decide War Hat - Black Distress Crown of Thorns</p>
+                            <div class="row px-2 px-sm-0" style="margin-top: -15px;">
+                                <div class="col-4 col-md-6 col-sm-6">
+                                    <p class="ms-4 fw-bold ms-md-0 fs-5">N229,635.00</p>
+                                </div>
+                                <div class="col-3 col-md-6 col-sm-6">
+                                    <p class="text-decoration-line-through mt-sm-1">N382,725.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide text-center mt-3">
+                        <div class="col border border-black me-5 me-sm-3">
+                            <img src="static/images/who-decide-war-8.avif" alt="" style="width: 90%;" class="mt-3">
+                            <p class="fs-5 px-4 text-start">Who Decide War Coal X Barriers Ny Tuskegee Jersey</p>
+                            <div class="row px-2 px-sm-0" style="margin-top: -15px;">
+                                <div class="col-4 col-md-6 col-sm-6">
+                                    <p class="ms-4 fw-bold ms-md-0 fs-5">N121,500.00</p>
+                                </div>
+                                <div class="col-3 col-md-6 col-sm-6">
+                                    <p class="text-decoration-line-through mt-sm-1">N202,500.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <div class="container-fluid mt-5 p-5 bg-white">
+        <p class="fs-1 lh-1 text-center pt-5">Qasimi</p>
+        <p class="fs-5 lh-1 text-center text-decoration-underline text-white mb-md-5 lh-lg"><a href="">VIEW ALL
+                PRODUCTS</a></p>
+        <section id="image-carousel4" class="splide" aria-label="Beautiful Images">
+            <div class="splide__track px-5">
+                <ul class="splide__list">
+                    <li class="splide__slide text-center mt-3">
+                        <div class="col border border-black me-5 me">
+                            <img src="static/images/Qasimi-1.avif" alt="" style="width: 90%;" class="mt-3">
+                            <p class="fs-5 px-4 text-start">Qasimi Longsleeve Shirt Black Grandad Sheersucker 00329A</p>
+                            <div class="row px-2 px-sm-0" style="margin-top: -15px;">
+                                <div class="col-4 col-md-6 col-sm-6 fw-bold">
+                                    <p class="ms-4 ms-md-0 fs-5">N455,868.00</p>
+                                </div>
+                                <div class="col-3 col-md-6 col-sm-5">
+                                    <p class="text-decoration-line-through fs-5">N759,780.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide text-center mt-3">
+                        <div class="col border border-black me-5 me">
+                            <img src="static/images/Qasimi-2.avif" alt="" style="width: 90%;" class="mt-3">
+                            <p class="fs-5 px-4 text-start">Qasimi Technical Cargo Pant 00389A</p>
+                            <div class="row px-2 px-sm-0" style="margin-top: -15px;">
+                                <div class="col-4 col-md-6 col-sm-6">
+                                    <p class="ms-1 fw-bold ms-md-0 fs-5 ms-sm-4">N506,898.00</p>
+                                </div>
+                                <div class="col-3 col-md-6 col-sm-6">
+                                    <p class="text-decoration-line-through fs-5">N844,830.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide text-center mt-3">
+                        <div class="col border border-black me-5 me">
+                            <img src="static/images/Qasimi-3-webp.webp" alt="" style="width: 90%;" class="mt-3">
+                            <p class="fs-5 px-4 text-start">Qasimi Bulletwood Technical Bomber Jacket 001032A</p>
+                            <div class="row px-2 px-sm-0" style="margin-top: -15px;">
+                                <div class="col-4 col-md-6 col-sm-6">
+                                    <p class="ms-4 fw-bold ms-md-0 fs-5">N630,342.00</p>
+                                </div>
+                                <div class="col-3 col-md-6 col-sm-6">
+                                    <p class="text-decoration-line-through mt-sm-1">N1,050,570.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide text-center mt-3">
+                        <div class="col border border-black me-5 me">
+                            <img src="static/images/Qasimi-4.avif" alt="" style="width: 90%;" class="mt-3">
+                            <p class="fs-5 px-4 text-start">Qasimi Harsil Fleece Fashion Jogger 00419A</p>
+                            <div class="row px-2 px-sm-0" style="margin-top: -15px;">
+                                <div class="col-4 col-md-6 col-sm-6">
+                                    <p class="ms-4 fw-bold ms-md-0 fs-5">N630,342.00</p>
+                                </div>
+                                <div class="col-3 col-md-6 col-sm-6">
+                                    <p class="text-decoration-line-through mt-sm-1">N1,050,570.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide text-center mt-3">
+                        <div class="col border border-black me-5 me">
+                            <img src="static/images/Qasimi-5.avif" alt="" style="width: 90%;" class="mt-3">
+                            <p class="fs-5 px-4 text-start">Qasimi Chinos Green Key Ring Tarbousheh 00105A</p>
+                            <div class="row px-2 px-sm-0" style="margin-top: -15px;">
+                                <div class="col-4 col-md-6 col-sm-6">
+                                    <p class="ms-4 fw-bold ms-md-0 fs-5">N630,342.00</p>
+                                </div>
+                                <div class="col-3 col-md-6 col-sm-6">
+                                    <p class="text-decoration-line-through mt-sm-1">N1,050,570.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide text-center mt-3">
+                        <div class="col border border-black me-5 me">
+                            <img src="static/images/Qasimi-6-webp.webp" alt="" style="width: 90%;" class="mt-3">
+                            <p class="fs-5 px-4 text-start">Qasimi Pebble Techno Linen Bomber 001107A</p>
+                            <div class="row px-2 px-sm-0" style="margin-top: -15px;">
+                                <div class="col-4 col-md-6 col-sm-6">
+                                    <p class="ms-4 fw-bold ms-md-0 fs-5">N630,342.00</p>
+                                </div>
+                                <div class="col-3 col-md-6 col-sm-6">
+                                    <p class="text-decoration-line-through mt-sm-1">N1,050,570.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide text-center mt-3">
+                        <div class="col border border-black me-5 me">
+                            <img src="static/images/Qasimi-7.avif" alt="" style="width: 90%;" class="mt-3">
+                            <p class="fs-5 px-4 text-start">Qasimi Black Harsal Fleece Oversized Sweater 00299A</p>
+                            <div class="row px-2 px-sm-0" style="margin-top: -15px;">
+                                <div class="col-4 col-md-6 col-sm-6">
+                                    <p class="ms-4 fw-bold ms-md-0 fs-5">N630,342.00</p>
+                                </div>
+                                <div class="col-3 col-md-6 col-sm-6">
+                                    <p class="text-decoration-line-through mt-sm-1">N1,050,570.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide text-center mt-3">
+                        <div class="col border border-black me-5 me">
+                            <img src="static/images/Qasimi-8.avif" alt="" style="width: 90%;" class="mt-3">
+                            <p class="fs-5 px-4 text-start">Qasimi Khaki Printed Denim Shirt Jacket 00748A</p>
+                            <div class="row px-2 px-sm-0" style="margin-top: -15px;">
+                                <div class="col-4 col-md-6 col-sm-6">
+                                    <p class="ms-4 fw-bold ms-md-0 fs-5">₦363,528.00</p>
+                                </div>
+                                <div class="col-3 col-md-6 col-sm-6">
+                                    <p class="text-decoration-line-through mt-sm-1">₦605,880.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <div class="container-fluid mt-5 p-5 bg-white">
+        <p class="fs-1 lh-1 text-center pt-5">Wood Wood</p>
+        <p class="fs-5 lh-1 text-center text-decoration-underline text-white mb-md-5 lh-lg"><a href="">VIEW ALL
+                PRODUCTS</a></p>
+        <section id="image-carousel5" class="splide" aria-label="Beautiful Images">
+            <div class="splide__track px-5">
+                <ul class="splide__list">
+                    <li class="splide__slide text-center mt-3">
+                        <div class="col border border-black me-5">
+                            <img src="static/images/wood-1.avif" alt="" style="width: 90%;" class="mt-3">
+                            <p class="fs-5 px-4 text-start">Wood Wood Adam Oxford Shirt</p>
+                            <div class="row px-2 px-sm-0" style="margin-top: -15px;">
+                                <div class="col-4 col-md-6 col-sm-6 fw-bold">
+                                    <p class="ms-4 ms-md-0 fs-5">₦63,379.26</p>
+                                </div>
+                                <div class="col-3 col-md-6 col-sm-5">
+                                    <p class="text-decoration-line-through fs-5">₦105,632.10</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide text-center mt-3">
+                        <div class="col border border-black me-5">
+                            <img src="static/images/wood-2.avif" alt="" style="width: 90%;" class="mt-3">
+                            <p class="fs-5 px-4 text-start">Wood Wood Al Rigid Denim Straight Fit</p>
+                            <div class="row px-2 px-sm-0" style="margin-top: -15px;">
+                                <div class="col-4 col-md-6 col-sm-6">
+                                    <p class="ms-1 fw-bold ms-md-0 fs-5 ms-sm-4">₦96,446.70</p>
+                                </div>
+                                <div class="col-3 col-md-6 col-sm-6">
+                                    <p class="text-decoration-line-through fs-5">₦160,744.50</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide text-center mt-3">
+                        <div class="col border border-black me-5">
+                            <img src="static/images/wood-3.avif" alt="" style="width: 90%;" class="mt-3">
+                            <p class="fs-5 px-4 text-start">Wood Wood Michael Oxford Shirt Ss</p>
+                            <div class="row px-2 px-sm-0" style="margin-top: -15px;">
+                                <div class="col-4 col-md-6 col-sm-6">
+                                    <p class="ms-4 fw-bold ms-md-0 fs-5">₦96,446.70</p>
+                                </div>
+                                <div class="col-3 col-md-6 col-sm-6">
+                                    <p class="text-decoration-line-through mt-sm-1">₦160,744.50</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide text-center mt-3">
+                        <div class="col border border-black me-5">
+                            <img src="static/images/wood-4.avif" alt="" style="width: 90%;" class="mt-3">
+                            <p class="fs-5 px-4 text-start">Wood Wood Marcus Light Twill Trousers</p>
+                            <div class="row px-2 px-sm-0" style="margin-top: -15px;">
+                                <div class="col-4 col-md-6 col-sm-6">
+                                    <p class="ms-4 fw-bold ms-md-0 fs-5">₦71,646.12</p>
+                                </div>
+                                <div class="col-3 col-md-6 col-sm-6">
+                                    <p class="text-decoration-line-through mt-sm-1">₦119,410.20</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container-fluid p-5" style="background-color: #1f3540;">
+        <div class="row">
+            <div class="col-8">
+                <p class="text-white fs-2 fw-bold ms-5">Join Our Community</p>
+                <p class="text-white ms-5"><span class="text-white fw-bold">Get 10% off your first order</span> and
+                    be
+                    the first to get the latest updates on our promotion campaigns, products and services</p>
+            </div>
+            <div class="col-2">
+                <p class="text-white mt-4">Your E-mail</p>
+            </div>
+            <div class="col-2"><button type="button" class="btn btn-light mt-4 px-4">SUBSCRIBE</button></div>
+        </div>
+    </div>
+
+
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="static/javascript/bootstrap.bundle.min.js"></script>
+    <script src="static/javascript/splide.min.js"></script>
+    <script src="static/javascript/script.js"></script>
+</body>
+
+</html>
